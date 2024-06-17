@@ -112,6 +112,6 @@ test('Lets Shop Web App Login', async ({page})=>{
     //Validation if order id is correct
     const orderIDdetailsPage=await orderIDDetailsPageLabel.textContent()
     expect(orderID.includes(orderIDdetailsPage)).toBeTruthy()
-
+    
 
 });
